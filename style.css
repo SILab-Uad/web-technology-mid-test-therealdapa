@@ -4,24 +4,82 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0e7ff; /* Background color */
+    background-color: #e0e7ff; 
 }
 
 .container {
     text-align: center;
     padding: 30px;
-    background-color: #ffffff; /* Background color for container */
+    background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 400px;
+    
 }
 
 /* TODO: Add styles for labels, inputs, buttons, and output text */
 h1 {
     font-size: 2.2em;
     margin-bottom: 20px;
-    color: #4a4a4a; /* Header color */
+    color: #4a4a4a; 
 }
 
 /* Add more styles here as needed */
+
+label {
+    display: block; 
+    margin-bottom: 10px; 
+    font-size: 1em; 
+    font-weight: 550;
+    color: #000000; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ff0202; 
+    border-radius: 5px; 
+    font-size: 1em;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+button {
+    background-color: #c502e3; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 1em; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #357ABD; 
+}
+
+.output {
+    margin-top: 20px; 
+    font-size: 1.2em;
+    color: #4a4a4a; 
+    padding: 10px;
+    border: 1px solid #e0e7ff; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    border-color: #00000057;
+  }
