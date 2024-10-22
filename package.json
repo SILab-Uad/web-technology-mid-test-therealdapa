@@ -17,5 +17,9 @@
     "jsdom": "^16.4.0",
     "mocha": "^10.7.3",
     "mocha-junit-reporter": "^2.2.1"
+  },
+  "dependencies": {
+    "lru-cache": "^11.0.1",
+    "mochawesome": "^7.1.3"
   }
 }
